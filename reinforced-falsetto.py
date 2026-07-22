@@ -2,7 +2,7 @@
 """
 Reinforced falsetto trainer.
 
-Plays a random pitch (D#, E, F, F#, G, G# in the octave above middle C)
+Plays a random pitch (E, F, F#, G in the octave above middle C)
 paired with a random vowel sound ("ee", "eh", "ah", "oh", "oo"), one
 combination at a time, without repeating a combo within a run.
 
@@ -25,12 +25,10 @@ TONE_DURATION_SECONDS = 1.0
 
 # Octave above middle C (C5), equal temperament, A4 = 440 Hz.
 PITCH_FREQUENCIES = {
-    "D#": 622.25,
     "E": 659.25,
     "F": 698.46,
     "F#": 739.99,
     "G": 783.99,
-    "G#": 830.61,
 }
 
 VOWELS = ["ee", "eh", "ah", "oh", "oo"]

@@ -1,10 +1,10 @@
 # reinforced-falsetto
 
 An interactive ear-training drill for reinforced falsetto (a.k.a. mixed voice).
-It plays a random pitch (D#, E, F, F#, G, G# in the octave above middle C)
+It plays a random pitch (E, F, F#, G in the octave above middle C)
 paired with a random vowel ("ee", "eh", "ah", "oh", "oo"). Press **Return**
 if you hit it successfully, or any other key if you didn't. Every one of the
-30 pitch/vowel combinations is used exactly once per run, then a results
+20 pitch/vowel combinations is used exactly once per run, then a results
 table and success rate are printed.
 
 ## Prerequisites
