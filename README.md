@@ -35,6 +35,12 @@ To produce a stripped binary with no debug info (smaller file size):
 go build -ldflags="-s -w" -o reinforced-falsetto .
 ```
 
+### Cross-compiling for Windows
+
+```bash
+GOOS=windows GOARCH=amd64 go build -ldflags="-s -w" -o reinforced-falsetto.exe .
+```
+
 ## How it works
 
 - Press **Return/Enter** to mark the current pitch/vowel combo a success.
