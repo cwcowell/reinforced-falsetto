@@ -1,9 +1,0 @@
-[project]
-name = "reinforced-falsetto"
-version = "0.1.0"
-description = "Exercise to help develop reinforced falsetto (a.k.a. mixed voice)"
-requires-python = ">=3.9"
-dependencies = [
-    "numpy>=2.0.2",
-    "simpleaudio>=1.0.4",
-]
