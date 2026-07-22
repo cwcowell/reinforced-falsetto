@@ -24,10 +24,7 @@ go run .
 
 ```bash
 go build -o reinforced-falsetto .
-./reinforced-falsetto
 ```
-
-On Windows this produces `reinforced-falsetto.exe`.
 
 To produce a stripped binary with no debug info (smaller file size):
 
@@ -35,7 +32,7 @@ To produce a stripped binary with no debug info (smaller file size):
 go build -ldflags="-s -w" -o reinforced-falsetto .
 ```
 
-### Cross-compiling for Windows
+### Cross-compiling for Windows with stripped, no-debug info binary
 
 ```bash
 GOOS=windows GOARCH=amd64 go build -ldflags="-s -w" -o reinforced-falsetto.exe .
