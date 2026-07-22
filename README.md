@@ -9,7 +9,7 @@ table and success rate are printed.
 
 ## Prerequisites
 
-- [Go](https://go.dev/dl/) 1.21 or later
+- [Go](https://go.dev/dl/) 1.26.5 or later
 - Speakers or headphones
 
 ## Running the trainer
