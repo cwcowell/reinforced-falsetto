@@ -1,6 +1,6 @@
 module github.com/cwcowell/reinforced-falsetto
 
-go 1.21
+go 1.26.5
 
 require (
 	github.com/ebitengine/oto/v3 v3.3.2
