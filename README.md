@@ -29,6 +29,12 @@ go build -o reinforced-falsetto .
 
 On Windows this produces `reinforced-falsetto.exe`.
 
+To produce a stripped binary with no debug info (smaller file size):
+
+```bash
+go build -ldflags="-s -w" -o reinforced-falsetto .
+```
+
 ## How it works
 
 - Press **Return/Enter** to mark the current pitch/vowel combo a success.
