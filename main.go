@@ -53,7 +53,7 @@ func makeTone(frequency float64) []byte {
 	numSamples := int(sampleRate * toneDurationSeconds)
 	buf := new(bytes.Buffer)
 	buf.Grow(numSamples * 2)
-	for i := 0; i < numSamples; i++ {
+	for i := range numSamples {
 		t := float64(i) / sampleRate
 		sample := math.Sin(2 * math.Pi * frequency * t)
 		binary.Write(buf, binary.LittleEndian, int16(sample*32767))
